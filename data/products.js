@@ -737,12 +737,11 @@ export function loadProducts(fun){
     });
 
     console.log('load products');
-    
+
     fun();
   });
 
   xhr.open('GET', 'https://supersimplebackend.dev/products');
   xhr.send();
 }
-loadProducts();
 
